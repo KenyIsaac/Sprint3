@@ -1,0 +1,28 @@
+:root {
+  --fontFamily: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #0f0e17;
+  color: #fffffe;
+  font-family: var(--fontFamily);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.wrapper {
+  max-width: 1366px;
+  margin: auto;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+}
